@@ -1,0 +1,70 @@
+/* style for entire card structure */
+
+.card {
+    width: 380px;
+    max-width: 380px;
+    height: 630px;
+    box-shadow: 0 0 1em gray;
+    margin-left: 30%
+}
+
+/* Style for title */
+
+h3 {
+    margin: 1% 0 0 4%;
+    padding-top: 4%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+/* Center Image */
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+/* Style for Info div Content */
+
+.info {
+    border-style: groove;
+    border-width: 2px;
+    margin: 3%;
+    padding: 0 3% 0 3%;
+    text-align: left;
+}
+
+/* italic styling for interesting facts */
+
+li, .interesting-fact {
+    font-style: italic;
+}
+
+/* Remove bullet points from ul */
+
+ul {
+    list-style: none;
+}
+
+/* align list items to left */
+
+li {
+    margin-left: -14%;
+}
+
+/* bold font and remove italic styling */
+
+span {
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* add font style to entire card */
+p, li {
+    font-family: 'Roboto', sans-serif;
+}
+
+
